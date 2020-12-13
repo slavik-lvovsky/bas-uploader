@@ -4,11 +4,11 @@
 	"description": "uploads extension vsix",
 	"version": "1.0.0",
 	"repository": {
-	    "type": "git",
-	    "url": "https://github.com/slavik-lvovsky/bas-uploader.git"
+		"type": "git",
+		"url": "https://github.com/slavik-lvovsky/bas-uploader.git"
 	},
 	"author": {
-	        "name": "LAS-PLATFORMS"
+		"name": "LAS-PLATFORMS"
 	},
 	"engines": {
 		"vscode": "^1.39.0"
@@ -39,5 +39,5 @@
 		"@types/vscode": "^1.39.0",
 		"eslint": "^7.15.0"
 	},
-  	"license": "Apache-2.0"
+	"license": "Apache-2.0"
 }
