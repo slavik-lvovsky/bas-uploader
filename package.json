@@ -1,0 +1,35 @@
+{
+	"name": "bas-uploader",
+	"displayName": "bas-uploader",
+	"description": "uploads extension vsix",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:bas-uploader.upload"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "bas-uploader.upload",
+				"title": "BAS: Upload vsix"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"lodash": "4.17.20"
+	},
+	"devDependencies": {
+		"@types/lodash": "4.14.165",
+		"@types/vscode": "^1.39.0",
+		"eslint": "^7.15.0"
+	}
+}
