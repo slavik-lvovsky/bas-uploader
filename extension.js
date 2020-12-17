@@ -25,7 +25,8 @@ exports.activate = context => {
 			messages: {
 				panel_title: "Upload VSIX",
 				yeoman_ui_title: "Upload VSIX to BAS",
-				show_progress_message: "Uploading..."
+				step_is_generating: "Uploading...",
+				artifact_generated: "The extension has been uploaded."
 			}
 		});
 	}));
