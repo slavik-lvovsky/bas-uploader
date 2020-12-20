@@ -1,6 +1,7 @@
 {
 	"name": "bas-uploader",
 	"displayName": "bas-uploader",
+	"publisher": "LAS-PLATFORMS",
 	"description": "uploads extension vsix",
 	"version": "1.0.0",
 	"repository": {
@@ -29,10 +30,12 @@
 		]
 	},
 	"scripts": {
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"package": "vsce package ."
 	},
 	"dependencies": {
-		"lodash": "4.17.20"
+		"lodash": "4.17.20",
+		"vsce": "1.83.0"
 	},
 	"devDependencies": {
 		"@types/lodash": "4.14.165",
