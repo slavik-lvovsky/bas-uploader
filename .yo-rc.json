@@ -1,8 +1,0 @@
-{
-  "generator-bas-up": {
-    "promptValues": {
-      "env": "STAGING",
-      "headless": true
-    }
-  }
-}
